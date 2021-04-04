@@ -1,0 +1,23 @@
+{
+  "name": "mern-app-tutorial",
+  "version": "1.0.0",
+  "description": "Web app built with Node.js, Express, MongoDB, and React",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"nodemon server.js\" \"cd client && npm run start\"",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2"
+  }
+}
