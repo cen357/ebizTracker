@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "peter1",
+        "MONGO_PASSWORD": "peterluong",
+        "MONGO_DB": "ebiztracker"
+    }
+}
